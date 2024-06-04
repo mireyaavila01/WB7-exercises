@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Json Placeholder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="todo.html"> To Do </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="users.html"> Users </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Users!</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    Users on a website form the lifeblood of its existence, shaping its identity and purpose. Each visitor represents a unique interaction, a potential connection waiting to be made. From the casual browsers to the dedicated contributors, every user brings a distinct perspective and set of needs to the virtual table. They navigate through pages, click through menus, and interact with content, leaving behind digital footprints that tell a story of their journey. Understanding the diverse demographics, behaviors, and preferences of these users is paramount for crafting engaging experiences. Whether it's through personalized recommendations, intuitive interfaces, or responsive support, the aim is to create a welcoming virtual space where users feel valued, empowered, and inspired to explore further. In this dynamic digital ecosystem, users aren't just passive spectators but active participants, influencing the evolution and direction of the website with each click and keystroke.
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col">
+
+
+                 <div>
+                    <label for="userIdInput" class="form-label" >Select the User Id: </label>
+                   <input id="userIdInput" class="form-control" type="number" min="1" max="10">
+               </div>
+               
+               <div class="mt-3">
+                   <button id="getResultsButton" class="btn btn-primary" type="button">Get Results</button> 
+               </div>
+
+               <table id="userTable" class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Username</th>
+                        <th>Phone</th>
+                        <th>Website</th>
+                        <th>Company BS</th>
+                    </tr>
+                </thead>
+
+                <tbody id="userData">
+
+                </tbody>
+
+               </table> 
+
+               
+
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+   <script src="scripts/users.js"></script>
+</body>
+
+</html>
